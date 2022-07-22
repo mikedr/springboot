@@ -10,6 +10,6 @@ public class HelloTestController {
 
 	@GetMapping("/")
 	public String sayHello() {
-		return ("Hello my friend. Time on server is: "+LocalDateTime.now());
+		return ("Time on server is: "+LocalDateTime.now());
 	}
 }
